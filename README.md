@@ -186,17 +186,18 @@ pickle
 
 | Metric   | Value |
 | -------- | ----- |
-| MAE      | 0.752 |
-| MSE      | 0.944 |
-| RMSE     | 0.971 |
-| R2 Score | 0.279 |
+| MAE      | 0.445 |
+| MSE      | 0.425 |
+| RMSE     | 0.652 |
+| R2 Score | 0.676 |
 
 ### Interpretation
 
-* MAE indicates average prediction error.
-* MSE measures squared prediction error.
-* RMSE represents prediction error magnitude.
-* R2 Score indicates how well the model explains variance in the data.
+* MAE indicates low average prediction error.
+* MSE shows reduced squared prediction loss.
+* RMSE indicates improved prediction performance.
+* R2 Score of 0.676 shows the model explains approximately 67.6% of the variance in the dataset.
+* The regression model performance improved after preprocessing, tuning, and optimization.
 
 ---
 
